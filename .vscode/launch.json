@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "remote nodemon",
-            "runtimeExecutable": "/Users/user/pi/home/pi/dev/ellicore2/startRaspiNode.sh",
+            "runtimeExecutable": "${env:HOME}/pi/home/pi/dev/ellicore2/startRaspiNode.sh",
             "program": "",
             "restart": true,
             "console": "integratedTerminal",
